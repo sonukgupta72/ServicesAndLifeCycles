@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnStartServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Services" />
+
+        <Button
+            android:id="@+id/btnBindServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bind Service"/>
+
+        <Button
+            android:id="@+id/btnUnbindServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unbind Service"/>
+
+        <Button
+            android:id="@+id/btnStopServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Service"/>
+
+        <TextView
+            android:id="@+id/tvCounter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Counter"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
